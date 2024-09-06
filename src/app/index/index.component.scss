@@ -1,0 +1,34 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+    .header {
+        width: 100%;
+        background-color: grey;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1440px;
+        width: 100%;
+        height: 100%;
+
+        .side-bar-main {
+            width: 20%;
+            height: 100%;
+            background-color: aqua;
+        }
+        
+        .main-view-container {
+            width: 80%;
+            height: 100%;
+            background-color: bisque;
+        }
+        
+    }
+}

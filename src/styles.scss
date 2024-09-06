@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.btn-hover {
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.btn-std {
+    border: none;
+    background-color: transparent;
+}
+
+.ipt-std {
+    border: none;
+    &:focus {
+        outline: none;
+    }
+}
